@@ -1,0 +1,22 @@
+<html>
+<%- include("partials/header");-%>
+
+    <body>
+        <h1>Home</h1>
+        <p>
+            <%= fuck %>
+        </p>
+        
+               <% fucku.forEach(function(fuc){
+                %> <h1>
+                    <%= fuc.title %>
+                        </h1> <p>  
+                            <%= fuc.postage.substring(0,100) + "...." %> <a href="/TECHno_BLOG/<%=fuc.title%>">Read More</a>
+                            </p> </form>
+                            <%  } )%>
+             
+        
+    </body>
+    <%- include("partials/footer");-%>
+
+</html>

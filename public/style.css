@@ -1,0 +1,53 @@
+body {
+  padding: 30px 20px;
+  margin: 30px 100px;
+  /* letter-spacing:2px;
+  */
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  color: grey;
+  margin-left: 5%;
+  margin-right: 45%;
+  font-size: 2.5rem;
+}
+
+/* .collapse{
+    margin-right: 0px;
+  } */
+.navbar {
+
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ced1cd;
+  ;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  bottom: 2%;
+  margin-top: 35%;
+  padding: 2% 0%;
+  background-color: rgb(132, 245, 208);
+}
+
+.first{
+  margin: 30px auto;
+}
+.pbutton{
+  margin:15px 0px;
+}
+ .tarea{
+  border-color: black;
+  border-radius: 6px;
+  border-width: 2px;
+ }
+.form-group{
+  margin:5px 0;
+}
